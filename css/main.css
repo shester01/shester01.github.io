@@ -263,3 +263,75 @@ textarea {
   }
 }
 
+#content {
+}
+#header {
+  position: relative;
+  height: 100px;
+
+}
+#header .title {
+  position: absolute;
+  height: 100%;
+
+  width: 25%;
+
+  line-height: 100px;
+  vertical-align: middle;
+}
+#header nav {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 75%;
+}
+#header nav ul {
+  list-style: none;
+  text-align: right;
+}
+#header nav ul li {
+  display: inline-block;
+
+  margin: 0 20px;
+
+  line-height: 100px;
+}
+
+#header,
+#sections,
+#footer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#sections section {
+  position: relative;
+  min-height: 200px;
+  box-sizing: border-box;
+
+  width: 100%;
+
+  padding: 75px;
+}
+#sections section:nth-child(odd) {
+  /* background-color:gray; */
+}
+
+#sections section>* {
+  display:inline-block;
+}
+
+
+/* ABOUT */
+
+#about-blurb {
+
+  width: 45%;
+}
+#about-pic {
+  width: 35%;
+  margin-left: 15%;
+}
+#about-pic>img {
+  width:100%;
+}
